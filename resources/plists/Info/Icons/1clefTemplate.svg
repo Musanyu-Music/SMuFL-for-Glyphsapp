@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-448,0)">
+        <g id="_1clefTemplate" serif:id="1clefTemplate" transform="matrix(1,0,0,1,-0.333333,0)">
+            <rect x="448.333" y="0" width="16" height="16" style="fill:none;"/>
+            <g transform="matrix(0.0183946,0,0,0.0183946,450.088,12.6806)">
+                <path d="M252,-635C78,-635 0,-508 0,-412C0,-332 42,-263 123,-263C186,-263 229,-307 229,-369C229,-433 182,-473 133,-473C106,-473 96,-466 83,-466C70,-466 67,-474 67,-484C67,-524 127,-597 229,-597C335,-597 381,-493 381,-336C381,-147.268 317.852,-14.82 204.866,92.297C172.246,123.223 135.472,152.038 94.864,179.486C154.696,179.486 104.756,180.455 167.187,180.455C210.221,154.591 252.016,126.462 291.014,95.682C428.346,-12.711 531,-153.982 531,-345C531,-519 425,-635 252,-635ZM630,-302C599,-302 576,-279 576,-248C576,-217 599,-194 630,-194C661,-194 684,-217 684,-248C684,-279 661,-302 630,-302ZM629,-553C598,-553 574,-529 574,-498C574,-467 598,-443 629,-443C660,-443 684,-467 684,-498C684,-529 660,-553 629,-553Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

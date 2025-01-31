@@ -1,0 +1,1345 @@
+{
+    categories = (
+        {
+            name = "SMuFL Basics";
+            icon = smuflTemplate;
+            predicate = "script == \"musical\"";
+            subGroup = (
+                    {
+                        name = "Staff Lines";
+                        icon = 1staffTemplate;
+                        subGroup = (
+                            {
+                            name = "Staff Brackets and Dividers";
+                            list = (
+                                brace,
+                                reversedBrace,
+                                bracket,
+                                bracketTop,
+                                bracketBottom,
+                                reversedBracketTop,
+                                reversedBracketBottom,
+                                systemDivider,
+                                systemDividerLong,
+                                systemDividerExtraLong,
+                                splitBarDivider,
+                                staffDivideArrowDown,
+                                staffDivideArrowUp,
+                                staffDivideArrowUpDown
+                            );
+                        },
+                        {
+                            name = "Staves";
+                            list = (
+                                staff1Line,
+                                staff2Lines,
+                                staff3Lines,
+                                staff4Lines,
+                                staff5Lines,
+                                staff6Lines,
+                                staff1LineWide,
+                                staff2LinesWide,
+                                staff3LinesWide,
+                                staff4LinesWide,
+                                staff5LinesWide,
+                                staff6LinesWide,
+                                staff1LineNarrow,
+                                staff2LinesNarrow,
+                                staff3LinesNarrow,
+                                staff4LinesNarrow,
+                                staff5LinesNarrow,
+                                staff6LinesNarrow,
+                                legerLine,
+                                legerLineWide,
+                                legerLineNarrow
+                            );
+                        },
+                        {
+                            name = "Barlines";
+                            list = (
+                                barlineSingle,
+                                barlineDouble,
+                                barlineFinal,
+                                barlineReverseFinal,
+                                barlineHeavy,
+                                barlineHeavyHeavy,
+                                barlineDashed,
+                                barlineDotted,
+                                barlineShort,
+                                barlineTick
+                            );
+                            },
+                            );
+                    },
+                    {
+                        name = "Notes and Rests";
+                        icon = 1nrTemplate;
+                        subGroup = (
+                            {
+                                name = "Noteheads";
+                                subGroup = (
+                                {
+                                name = "Common Noteheads";
+                                list = (
+                                noteheadDoubleWhole,
+                                noteheadDoubleWholeSquare,
+                                noteheadWhole,
+                                noteheadHalf,
+                                noteheadBlack,
+                                noteheadNull,
+                                noteheadXDoubleWhole,
+                                noteheadXWhole,
+                                noteheadXHalf,
+                                noteheadXBlack,
+                                noteheadXOrnate,
+                                noteheadXOrnateEllipse,
+                                noteheadPlusDoubleWhole,
+                                noteheadPlusWhole,
+                                noteheadPlusHalf,
+                                noteheadPlusBlack,
+                                noteheadCircleXDoubleWhole,
+                                noteheadCircleXWhole,
+                                noteheadCircleXHalf,
+                                noteheadCircleX,
+                                noteheadDoubleWholeWithX,
+                                noteheadWholeWithX,
+                                noteheadHalfWithX,
+                                noteheadVoidWithX,
+                                noteheadSquareWhite,
+                                noteheadSquareBlack,
+                                noteheadTriangleUpDoubleWhole,
+                                noteheadTriangleUpWhole,
+                                noteheadTriangleUpHalf,
+                                noteheadTriangleUpWhite,
+                                noteheadTriangleUpBlack,
+                                noteheadTriangleLeftWhite,
+                                noteheadTriangleLeftBlack,
+                                noteheadTriangleRightWhite,
+                                noteheadTriangleRightBlack,
+                                noteheadTriangleDownDoubleWhole,
+                                noteheadTriangleDownWhole,
+                                noteheadTriangleDownHalf,
+                                noteheadTriangleDownWhite,
+                                noteheadTriangleDownBlack,
+                                noteheadTriangleUpRightWhite,
+                                noteheadTriangleUpRightBlack,
+                                noteheadMoonWhite,
+                                noteheadMoonBlack,
+                                noteheadTriangleRoundDownWhite,
+                                noteheadTriangleRoundDownBlack,
+                                noteheadParenthesis,
+                                noteheadSlashedBlack1,
+                                noteheadSlashedBlack2,
+                                noteheadSlashedHalf1,
+                                noteheadSlashedHalf2,
+                                noteheadSlashedWhole1,
+                                noteheadSlashedWhole2,
+                                noteheadSlashedDoubleWhole1,
+                                noteheadSlashedDoubleWhole2,
+                                noteheadDiamondDoubleWhole,
+                                noteheadDiamondWhole,
+                                noteheadDiamondHalf,
+                                noteheadDiamondHalfWide,
+                                noteheadDiamondBlack,
+                                noteheadDiamondBlackWide,
+                                noteheadDiamondWhite,
+                                noteheadDiamondWhiteWide,
+                                noteheadDiamondDoubleWholeOld,
+                                noteheadDiamondWholeOld,
+                                noteheadDiamondHalfOld,
+                                noteheadDiamondBlackOld,
+                                noteheadDiamondHalfFilled,
+                                noteheadCircledBlack,
+                                noteheadCircledHalf,
+                                noteheadCircledWhole,
+                                noteheadCircledDoubleWhole,
+                                noteheadCircledBlackLarge,
+                                noteheadCircledHalfLarge,
+                                noteheadCircledWholeLarge,
+                                noteheadCircledDoubleWholeLarge,
+                                noteheadCircledXLarge,
+                                noteheadLargeArrowUpDoubleWhole,
+                                noteheadLargeArrowUpWhole,
+                                noteheadLargeArrowUpHalf,
+                                noteheadLargeArrowUpBlack,
+                                noteheadLargeArrowDownDoubleWhole,
+                                noteheadLargeArrowDownWhole,
+                                noteheadLargeArrowDownHalf,
+                                noteheadLargeArrowDownBlack,
+                                noteheadParenthesisLeft,
+                                noteheadParenthesisRight,
+                                noteheadCircleSlash,
+                                noteheadHeavyX,
+                                noteheadHeavyXHat,
+                                noteheadWholeFilled,
+                                noteheadHalfFilled,
+                                noteheadDiamondOpen
+                                );
+                                },
+                                {
+                                name = "Slash Noteheads";
+                                list = (
+                                    noteheadSlashVerticalEnds,
+                                    noteheadSlashHorizontalEnds,
+                                    noteheadSlashWhiteWhole,
+                                    noteheadSlashWhiteHalf,
+                                    noteheadSlashDiamondWhite,
+                                    noteheadSlashVerticalEndsSmall,
+                                    noteheadSlashX,
+                                    noteheadSlashVerticalEndsMuted,
+                                    noteheadSlashHorizontalEndsMuted,
+                                    noteheadSlashWhiteMuted,
+                                    noteheadSlashWhiteDoubleWhole
+                                );
+                                },
+                                {
+                                name = "Note Clusters";
+                                list = (
+                                    noteheadClusterSquareWhite,
+                                    noteheadClusterSquareBlack,
+                                    noteheadClusterRoundWhite,
+                                    noteheadClusterRoundBlack,
+                                    noteheadClusterDoubleWhole2nd,
+                                    noteheadClusterWhole2nd,
+                                    noteheadClusterHalf2nd,
+                                    noteheadClusterQuarter2nd,
+                                    noteheadClusterDoubleWhole3rd,
+                                    noteheadClusterWhole3rd,
+                                    noteheadClusterHalf3rd,
+                                    noteheadClusterQuarter3rd,
+                                    noteheadClusterDoubleWholeTop,
+                                    noteheadClusterDoubleWholeMiddle,
+                                    noteheadClusterDoubleWholeBottom,
+                                    noteheadClusterWholeTop,
+                                    noteheadClusterWholeMiddle,
+                                    noteheadClusterWholeBottom,
+                                    noteheadClusterHalfTop,
+                                    noteheadClusterHalfMiddle,
+                                    noteheadClusterHalfBottom,
+                                    noteheadClusterQuarterTop,
+                                    noteheadClusterQuarterMiddle,
+                                    noteheadClusterQuarterBottom,
+                                    noteheadDiamondClusterWhite2nd,
+                                    noteheadDiamondClusterBlack2nd,
+                                    noteheadDiamondClusterWhite3rd,
+                                    noteheadDiamondClusterBlack3rd,
+                                    noteheadDiamondClusterWhiteTop,
+                                    noteheadDiamondClusterWhiteMiddle,
+                                    noteheadDiamondClusterWhiteBottom,
+                                    noteheadDiamondClusterBlackTop,
+                                    noteheadDiamondClusterBlackMiddle,
+                                    noteheadDiamondClusterBlackBottom,
+                                    noteheadRectangularClusterBlackTop,
+                                    noteheadRectangularClusterBlackMiddle,
+                                    noteheadRectangularClusterBlackBottom,
+                                    noteheadRectangularClusterWhiteTop,
+                                    noteheadRectangularClusterWhiteMiddle,
+                                    noteheadRectangularClusterWhiteBottom
+                                );
+                                },
+                                );
+                            },
+                            {
+                                name = "Stems";
+                                list = (
+                                    stem,
+                                    stemSprechgesang,
+                                    stemSwished,
+                                    stemPendereckiTremolo,
+                                    stemSulPonticello,
+                                    stemBowOnBridge,
+                                    stemBowOnTailpiece,
+                                    stemBuzzRoll,
+                                    stemDamp,
+                                    stemVibratoPulse,
+                                    stemMultiphonicsBlack,
+                                    stemMultiphonicsWhite,
+                                    stemMultiphonicsBlackWhite,
+                                    stemSussurando,
+                                    stemRimShot,
+                                    stemHarpStringNoise
+                                );
+                            },
+                            {
+                                name = "Flags";
+                                list = (
+                                    flag8thUp,
+                                    flag8thDown,
+                                    flag16thUp,
+                                    flag16thDown,
+                                    flag32ndUp,
+                                    flag32ndDown,
+                                    flag64thUp,
+                                    flag64thDown,
+                                    flag128thUp,
+                                    flag128thDown,
+                                    flag256thUp,
+                                    flag256thDown,
+                                    flag512thUp,
+                                    flag512thDown,
+                                    flag1024thUp,
+                                    flag1024thDown,
+                                    flagInternalUp,
+                                    flagInternalDown
+                                );
+                                },
+                                {
+                                name = "Rests";
+                                list = (
+                                    restMaxima,
+                                    restLonga,
+                                    restDoubleWhole,
+                                    restWhole,
+                                    restHalf,
+                                    restQuarter,
+                                    rest8th,
+                                    rest16th,
+                                    rest32nd,
+                                    rest64th,
+                                    rest128th,
+                                    rest256th,
+                                    rest512th,
+                                    rest1024th,
+                                    restHBar,
+                                    restHBarLeft,
+                                    restHBarMiddle,
+                                    restHBarRight,
+                                    restQuarterOld,
+                                    restDoubleWholeLegerLine,
+                                    restWholeLegerLine,
+                                    restHalfLegerLine,
+                                    restQuarterZ
+                                );
+                                },
+                            {
+                                name = "Tuplets";
+                                list = (
+                                    tuplet0,
+                                    tuplet1,
+                                    tuplet2,
+                                    tuplet3,
+                                    tuplet4,
+                                    tuplet5,
+                                    tuplet6,
+                                    tuplet7,
+                                    tuplet8,
+                                    tuplet9,
+                                    tupletColon
+                        );
+                    },
+                        );
+                    },
+                    {
+                            name = "Clefs and Octaves";
+                            icon = 1clefTemplate;
+                            subGroup =(
+                                {
+                            name = "Clefs";
+                            list = (
+                            gClef,
+                            gClef15mb,
+                            gClef8vb,
+                            gClef8va,
+                            gClef15ma,
+                            gClef8vbOld,
+                            gClef8vbCClef,
+                            gClef8vbParens,
+                            gClefLigatedNumberBelow,
+                            gClefLigatedNumberAbove,
+                            gClefArrowUp,
+                            gClefArrowDown,
+                            cClef,
+                            cClef8vb,
+                            cClefArrowUp,
+                            cClefArrowDown,
+                            cClefSquare,
+                            cClefCombining,
+                            fClef,
+                            fClef15mb,
+                            fClef8vb,
+                            fClef8va,
+                            fClef15ma,
+                            fClefArrowUp,
+                            fClefArrowDown,
+                            unpitchedPercussionClef1,
+                            unpitchedPercussionClef2,
+                            semipitchedPercussionClef1,
+                            semipitchedPercussionClef2,
+                            6stringTabClef,
+                            4stringTabClef,
+                            schaefferClef,
+                            schaefferPreviousClef,
+                            schaefferGClefToFClef,
+                            schaefferFClefToGClef,
+                            gClefReversed,
+                            gClefTurned,
+                            cClefReversed,
+                            fClefReversed,
+                            fClefTurned,
+                            bridgeClef,
+                            accdnDiatonicClef,
+                            gClefChange,
+                            cClefChange,
+                            fClefChange,
+                            clef8,
+                            clef15,
+                            clefChangeCombining,
+                            indianDrumClef    );
+                            },
+                            {
+                        name = "Octaves";
+                        list = (
+                            ottava,
+                            ottavaAlta,
+                            ottavaBassa,
+                            ottavaBassaBa,
+                            quindicesima,
+                            quindicesimaAlta,
+                            quindicesimaBassa,
+                            ventiduesima,
+                            ventiduesimaAlta,
+                            ventiduesimaBassa,
+                            octaveParensLeft,
+                            octaveParensRight,
+                            ottavaBassaVb,
+                            quindicesimaBassaMb,
+                            ventiduesimaBassaMb,
+                            octaveBassa
+                        );
+                    },
+                            );
+                    },
+                        {
+                            name = "Time Signatures";
+                            icon = 1tsTemplate;
+                            subGroup = (
+                            {
+                                name = "Time Signatures";
+                                list = (
+                                    timeSig0,
+                                    timeSig1,
+                                    timeSig2,
+                                    timeSig3,
+                                    timeSig4,
+                                    timeSig5,
+                                    timeSig6,
+                                    timeSig7,
+                                    timeSig8,
+                                    timeSig9,
+                                    timeSigCommon,
+                                    timeSigCutCommon,
+                                    timeSigPlus,
+                                    timeSigPlusSmall,
+                                    timeSigFractionalSlash,
+                                    timeSigEquals,
+                                    timeSigMinus,
+                                    timeSigMultiply,
+                                    timeSigParensLeftSmall,
+                                    timeSigParensRightSmall,
+                                    timeSigParensLeft,
+                                    timeSigParensRight,
+                                    timeSigComma,
+                                    timeSigFractionQuarter,
+                                    timeSigFractionHalf,
+                                    timeSigFractionThreeQuarters,
+                                    timeSigFractionOneThird,
+                                    timeSigFractionTwoThirds,
+                                    timeSigX,
+                                    timeSigOpenPenderecki,
+                                    timeSigCombNumerator,
+                                    timeSigCombDenominator
+                                );
+                            },
+                            {
+                                name = "Time Signatures Supplement";
+                                list = (
+                                    timeSigBracketLeft,
+                                    timeSigBracketRight,
+                                    timeSigBracketLeftSmall,
+                                    timeSigBracketRightSmall,
+                                    timeSigSlash,
+                                    timeSigCut2,
+                                    timeSigCut3
+                                );
+                            },
+                        );
+                    },
+                    {
+                        name = "Dynamics";
+                        icon = 1dynTemplate;
+                        list = (
+                        dynamicPiano,
+                        dynamicMezzo,
+                        dynamicForte,
+                        dynamicRinforzando,
+                        dynamicSforzando,
+                        dynamicZ,
+                        dynamicNiente,
+                        dynamicPPPPPP,
+                        dynamicPPPPP,
+                        dynamicPPPP,
+                        dynamicPPP,
+                        dynamicPP,
+                        dynamicMP,
+                        dynamicMF,
+                        dynamicPF,
+                        dynamicFF,
+                        dynamicFFF,
+                        dynamicFFFF,
+                        dynamicFFFFF,
+                        dynamicFFFFFF,
+                        dynamicFortePiano,
+                        dynamicForzando,
+                        dynamicSforzando1,
+                        dynamicSforzandoPiano,
+                        dynamicSforzandoPianissimo,
+                        dynamicSforzato,
+                        dynamicSforzatoPiano,
+                        dynamicSforzatoFF,
+                        dynamicRinforzando1,
+                        dynamicRinforzando2,
+                        dynamicCrescendoHairpin,
+                        dynamicDiminuendoHairpin,
+                        dynamicMessaDiVoce,
+                        dynamicNienteForHairpin,
+                        dynamicHairpinParenthesisLeft,
+                        dynamicHairpinParenthesisRight,
+                        dynamicHairpinBracketLeft,
+                        dynamicHairpinBracketRight,
+                        dynamicCombinedSeparatorColon,
+                        dynamicCombinedSeparatorHyphen,
+                        dynamicCombinedSeparatorSpace,
+                        dynamicCombinedSeparatorSlash    );
+                    },
+                     {
+                        name = "Accidentals";
+                        icon = 1acciTemplate;
+                        subGroup = (
+                            {
+                            name = "Standard Accidentals (12-EDO)";
+                            list = (
+                            accidentalFlat,
+                            accidentalNatural,
+                            accidentalSharp,
+                            accidentalDoubleSharp,
+                            accidentalDoubleFlat,
+                            accidentalTripleSharp,
+                            accidentalTripleFlat,
+                            accidentalNaturalFlat,
+                            accidentalNaturalSharp,
+                            accidentalSharpSharp,
+                            accidentalParensLeft,
+                            accidentalParensRight,
+                            accidentalBracketLeft,
+                            accidentalBracketRight
+                            );
+                            },
+                            {
+                            name = "Gould Arrow Quartertone Accidentals (24-EDO)";
+                            list = (
+                            accidentalQuarterToneFlatArrowUp,
+                            accidentalThreeQuarterTonesFlatArrowDown,
+                            accidentalQuarterToneSharpNaturalArrowUp,
+                            accidentalQuarterToneFlatNaturalArrowDown,
+                            accidentalThreeQuarterTonesSharpArrowUp,
+                            accidentalQuarterToneSharpArrowDown,
+                            accidentalFiveQuarterTonesSharpArrowUp,
+                            accidentalThreeQuarterTonesSharpArrowDown,
+                            accidentalThreeQuarterTonesFlatArrowUp,
+                            accidentalFiveQuarterTonesFlatArrowDown,
+                            accidentalArrowUp,
+                            accidentalArrowDown
+                            );
+                            },
+                            {
+                            name = "Stein-Zimmermann Accidentals (24-EDO)";
+                            list = (
+                                accidentalQuarterToneFlatStein,
+                                accidentalThreeQuarterTonesFlatZimmermann,
+                                accidentalQuarterToneSharpStein,
+                                accidentalThreeQuarterTonesSharpStein,
+                                accidentalNarrowReversedFlat,
+                                accidentalNarrowReversedFlatAndFlat
+                            );
+                            },
+                            {
+                            name = "Extended Stein-Zimmermann Accidentals";
+                            list = (
+                                accidentalReversedFlatArrowUp,
+                                accidentalReversedFlatArrowDown,
+                                accidentalFilledReversedFlatArrowUp,
+                                accidentalFilledReversedFlatArrowDown,
+                                accidentalReversedFlatAndFlatArrowUp,
+                                accidentalReversedFlatAndFlatArrowDown,
+                                accidentalFilledReversedFlatAndFlat,
+                                accidentalFilledReversedFlatAndFlatArrowUp,
+                                accidentalFilledReversedFlatAndFlatArrowDown,
+                                accidentalHalfSharpArrowUp,
+                                accidentalHalfSharpArrowDown,
+                                accidentalOneAndAHalfSharpsArrowUp,
+                                accidentalOneAndAHalfSharpsArrowDown
+                            );
+                            },
+                        );
+                    },
+                    {
+                        name = "Articulations";
+                        icon = 1artiTemplate;
+                        subGroup = (
+                            {
+                        name = "Articulation";
+                        list = (
+                            articAccentAbove,
+                            articAccentBelow,
+                            articStaccatoAbove,
+                            articStaccatoBelow,
+                            articTenutoAbove,
+                            articTenutoBelow,
+                            articStaccatissimoAbove,
+                            articStaccatissimoBelow,
+                            articStaccatissimoWedgeAbove,
+                            articStaccatissimoWedgeBelow,
+                            articStaccatissimoStrokeAbove,
+                            articStaccatissimoStrokeBelow,
+                            articMarcatoAbove,
+                            articMarcatoBelow,
+                            articMarcatoStaccatoAbove,
+                            articMarcatoStaccatoBelow,
+                            articAccentStaccatoAbove,
+                            articAccentStaccatoBelow,
+                            articTenutoStaccatoAbove,
+                            articTenutoStaccatoBelow,
+                            articTenutoAccentAbove,
+                            articTenutoAccentBelow,
+                            articStressAbove,
+                            articStressBelow,
+                            articUnstressAbove,
+                            articUnstressBelow,
+                            articLaissezVibrerAbove,
+                            articLaissezVibrerBelow,
+                            articMarcatoTenutoAbove,
+                            articMarcatoTenutoBelow
+                        );
+                        },
+                        {
+                        name = "Articulation Supplement";
+                        list = (
+                            articSoftAccentAbove,
+                            articSoftAccentBelow,
+                            articSoftAccentStaccatoAbove,
+                            articSoftAccentStaccatoBelow,
+                            articSoftAccentTenutoAbove,
+                            articSoftAccentTenutoBelow,
+                            articSoftAccentTenutoStaccatoAbove,
+                            articSoftAccentTenutoStaccatoBelow
+                        );
+                        },
+                        );
+                    },
+                    {
+                        name = "Repetitions";
+                        icon = 1stdTemplate;
+                        subGroup = (
+                            {
+                        name = "Tremolos";
+                        list = (
+                            tremolo1,
+                            tremolo2,
+                            tremolo3,
+                            tremolo4,
+                            tremolo5,
+                            tremoloFingered1,
+                            tremoloFingered2,
+                            tremoloFingered3,
+                            tremoloFingered4,
+                            tremoloFingered5,
+                            buzzRoll,
+                            pendereckiTremolo,
+                            unmeasuredTremolo,
+                            unmeasuredTremoloSimple,
+                            tremoloDivisiDots2,
+                            tremoloDivisiDots3,
+                            tremoloDivisiDots4,
+                            tremoloDivisiDots6,
+                            stockhausenTremolo,
+                            oneHandedRollStevens,
+                            doubleLateralRollStevens
+                        );
+                        },
+                            {
+                            name = "Repeats";
+                            list = (
+                            repeatLeft,
+                            repeatRight,
+                            repeatRightLeft,
+                            repeatDots,
+                            repeatDot,
+                            dalSegno,
+                            daCapo,
+                            segno,
+                            coda,
+                            codaSquare,
+                            segnoSerpent1,
+                            segnoSerpent2,
+                            leftRepeatSmall,
+                            rightRepeatSmall
+                                );
+                            },
+                        {
+                        name = "Bar Repeats";
+                        list = (
+                            repeat1Bar,
+                            repeat2Bars,
+                            repeat4Bars,
+                            repeatBarUpperDot,
+                            repeatBarSlash,
+                            repeatBarLowerDot
+                        );
+                        },
+                        );
+                    },
+                    {
+                        name = "Holds and Pauses";
+                        icon = 1pauseTemplate;
+                        list = (
+                            fermataAbove,
+                            fermataBelow,
+                            fermataVeryShortAbove,
+                            fermataVeryShortBelow,
+                            fermataShortAbove,
+                            fermataShortBelow,
+                            fermataLongAbove,
+                            fermataLongBelow,
+                            fermataVeryLongAbove,
+                            fermataVeryLongBelow,
+                            fermataLongHenzeAbove,
+                            fermataLongHenzeBelow,
+                            fermataShortHenzeAbove,
+                            fermataShortHenzeBelow,
+                            breathMarkComma,
+                            breathMarkTick,
+                            breathMarkUpbow,
+                            caesura,
+                            caesuraThick,
+                            caesuraShort,
+                            caesuraCurved,
+                            breathMarkSalzedo,
+                            curlewSign,
+                            caesuraSingleStroke
+                        );
+                        },
+                    
+                    {
+                        name = "Ornaments";
+                        icon = 1ornTemplate;
+                        subGroup =(
+                            {
+                            name = "Common Ornaments";
+                            list = (
+                            graceNoteAcciaccaturaStemUp,
+                            graceNoteAcciaccaturaStemDown,
+                            graceNoteAppoggiaturaStemUp,
+                            graceNoteAppoggiaturaStemDown,
+                            graceNoteSlashStemUp,
+                            graceNoteSlashStemDown,
+                            ornamentTrill,
+                            ornamentTurn,
+                            ornamentTurnInverted,
+                            ornamentTurnSlash,
+                            ornamentTurnUp,
+                            ornamentTurnUpS,
+                            ornamentShortTrill,
+                            ornamentMordent,
+                            ornamentTremblement,
+                            ornamentHaydn
+                            );
+                            },
+                            {
+                                name = "Other Baroque Ornaments";
+                                list = (
+                                ornamentPortDeVoixV,
+                                ornamentRightFacingHalfCircle,
+                                ornamentLeftFacingHalfCircle,
+                                ornamentRightFacingHook,
+                                ornamentLeftFacingHook,
+                                ornamentHookBeforeNote,
+                                ornamentHookAfterNote,
+                                ornamentUpCurve,
+                                ornamentDownCurve,
+                                ornamentShortObliqueLineBeforeNote,
+                                ornamentShortObliqueLineAfterNote,
+                                ornamentObliqueLineBeforeNote,
+                                ornamentObliqueLineAfterNote,
+                                ornamentDoubleObliqueLinesBeforeNote,
+                                ornamentDoubleObliqueLinesAfterNote,
+                                ornamentObliqueLineHorizBeforeNote,
+                                ornamentObliqueLineHorizAfterNote,
+                                ornamentComma,
+                                ornamentShake3,
+                                ornamentVerticalLine,
+                                ornamentShakeMuffat1,
+                                glissandoUp,
+                                glissandoDown,
+                                ornamentSchleifer,
+                                ornamentPinceCouperin,
+                                ornamentTremblementCouperin
+                                );
+                            },
+                    {
+                        name = "Precomposed Trills and Mordents";
+                        list = (
+                            ornamentPrecompSlide,
+                            ornamentPrecompDescendingSlide,
+                            ornamentPrecompAppoggTrill,
+                            ornamentPrecompAppoggTrillSuffix,
+                            ornamentPrecompTurnTrillDAnglebert,
+                            ornamentPrecompSlideTrillDAnglebert,
+                            ornamentPrecompSlideTrillMarpurg,
+                            ornamentPrecompTurnTrillBach,
+                            ornamentPrecompSlideTrillBach,
+                            ornamentPrecompSlideTrillMuffat,
+                            ornamentPrecompSlideTrillSuffixMuffat,
+                            ornamentPrecompTrillSuffixDandrieu,
+                            ornamentPrecompPortDeVoixMordent,
+                            ornamentPrecompTrillWithMordent,
+                            ornamentPrecompCadence,
+                            ornamentPrecompCadenceWithTurn,
+                            ornamentPrecompDoubleCadenceLowerPrefix,
+                            ornamentPrecompCadenceUpperPrefix,
+                            ornamentPrecompCadenceUpperPrefixTurn,
+                            ornamentPrecompDoubleCadenceUpperPrefix,
+                            ornamentPrecompDoubleCadenceUpperPrefixTurn,
+                            ornamentPrecompMordentRelease,
+                            ornamentPrecompMordentUpperPrefix,
+                            ornamentPrecompInvertedMordentUpperPrefix,
+                            ornamentPrecompTrillLowerSuffix
+                        );
+                    },
+                        );
+                    },
+                    
+                    
+                    {
+                        name = "Techniques";
+                        icon = 1techTemplate;
+                        subGroup =(
+                            {
+                            name = "Brass Techniques";
+                            list = (
+                            brassScoop,
+                            brassLiftShort,
+                            brassLiftMedium,
+                            brassLiftLong,
+                            brassDoitShort,
+                            brassDoitMedium,
+                            brassDoitLong,
+                            brassFallLipShort,
+                            brassFallLipMedium,
+                            brassFallLipLong,
+                            brassFallSmoothShort,
+                            brassFallSmoothMedium,
+                            brassFallSmoothLong,
+                            brassFallRoughShort,
+                            brassFallRoughMedium,
+                            brassFallRoughLong,
+                            brassPlop,
+                            brassFlip,
+                            brassSmear,
+                            brassBend,
+                            brassJazzTurn,
+                            brassMuteClosed,
+                            brassMuteHalfClosed,
+                            brassMuteOpen,
+                            brassHarmonMuteClosed,
+                            brassHarmonMuteStemHalfLeft,
+                            brassHarmonMuteStemHalfRight,
+                            brassHarmonMuteStemOpen,
+                            brassLiftSmoothShort,
+                            brassLiftSmoothMedium,
+                            brassLiftSmoothLong,
+                            brassValveTrill
+                        );
+                            },
+                            {
+                                name = "Wind Techniques";
+                                list = (
+                                doubleTongueAbove,
+                                doubleTongueBelow,
+                                tripleTongueAbove,
+                                tripleTongueBelow,
+                                windClosedHole,
+                                windThreeQuartersClosedHole,
+                                windHalfClosedHole1,
+                                windHalfClosedHole2,
+                                windHalfClosedHole3,
+                                windOpenHole,
+                                windTrillKey,
+                                windFlatEmbouchure,
+                                windSharpEmbouchure,
+                                windRelaxedEmbouchure,
+                                windLessRelaxedEmbouchure,
+                                windTightEmbouchure,
+                                windLessTightEmbouchure,
+                                windVeryTightEmbouchure,
+                                windWeakAirPressure,
+                                windStrongAirPressure,
+                                windReedPositionNormal,
+                                windReedPositionOut,
+                                windReedPositionIn,
+                                windMultiphonicsBlackStem,
+                                windMultiphonicsWhiteStem,
+                                windMultiphonicsBlackWhiteStem,
+                                windMouthpiecePop,
+                                windRimOnly
+                            );
+                            },
+                            {
+                                name = "String Techniques";
+                                list = (
+                                stringsDownBow,
+                                stringsDownBowTurned,
+                                stringsUpBow,
+                                stringsUpBowTurned,
+                                stringsHarmonic,
+                                stringsHalfHarmonic,
+                                stringsMuteOn,
+                                stringsMuteOff,
+                                stringsBowBehindBridge,
+                                stringsBowOnBridge,
+                                stringsBowOnTailpiece,
+                                stringsOverpressureDownBow,
+                                stringsOverpressureUpBow,
+                                stringsOverpressurePossibileDownBow,
+                                stringsOverpressurePossibileUpBow,
+                                stringsOverpressureNoDirection,
+                                stringsJeteAbove,
+                                stringsJeteBelow,
+                                stringsFouette,
+                                stringsVibratoPulse,
+                                stringsThumbPosition,
+                                stringsThumbPositionTurned,
+                                stringsChangeBowDirection,
+                                stringsBowBehindBridgeOneString,
+                                stringsBowBehindBridgeTwoStrings,
+                                stringsBowBehindBridgeThreeStrings,
+                                stringsBowBehindBridgeFourStrings
+                            );
+                            },
+                            {
+                                name = "Plucked Techniques";
+                                list = (
+                                pluckedSnapPizzicatoBelow,
+                                pluckedSnapPizzicatoAbove,
+                                pluckedBuzzPizzicato,
+                                pluckedLeftHandPizzicato,
+                                arpeggiatoUp,
+                                arpeggiatoDown,
+                                pluckedWithFingernails,
+                                pluckedFingernailFlick,
+                                pluckedDamp,
+                                pluckedDampAll,
+                                pluckedPlectrum,
+                                pluckedDampOnStem,
+                                arpeggiato
+                            );
+                            },
+                            {
+                                name = "Keyboard Techniques";
+                                list = (
+                                keyboardPedalPed,
+                                keyboardPedalP,
+                                keyboardPedalE,
+                                keyboardPedalD,
+                                keyboardPedalDot,
+                                keyboardPedalUp,
+                                keyboardPedalHalf,
+                                keyboardPedalUpNotch,
+                                keyboardPedalHyphen,
+                                keyboardPedalSost,
+                                keyboardPedalS,
+                                keyboardPedalHalf2,
+                                keyboardPedalHalf3,
+                                keyboardPedalUpSpecial,
+                                keyboardLeftPedalPictogram,
+                                keyboardMiddlePedalPictogram,
+                                keyboardRightPedalPictogram,
+                                keyboardPedalHeel1,
+                                keyboardPedalHeel2,
+                                keyboardPedalHeel3,
+                                keyboardPedalToe1,
+                                keyboardPedalToe2,
+                                keyboardPedalHeelToe,
+                                keyboardPluckInside,
+                                keyboardBebung2DotsAbove,
+                                keyboardBebung2DotsBelow,
+                                keyboardBebung3DotsAbove,
+                                keyboardBebung3DotsBelow,
+                                keyboardBebung4DotsAbove,
+                                keyboardBebung4DotsBelow,
+                                keyboardPlayWithRH,
+                                keyboardPlayWithRHEnd,
+                                keyboardPlayWithLH,
+                                keyboardPlayWithLHEnd,
+                                keyboardPedalHookStart,
+                                keyboardPedalHookEnd,
+                                keyboardPedalHeelToToe,
+                                keyboardPedalToeToHeel,
+                                keyboardPedalParensLeft,
+                                keyboardPedalParensRight
+                            );
+                            },
+                            {
+                                name = "Harp Techniques";
+                                list = (
+                                harpPedalRaised,
+                                harpPedalCentered,
+                                harpPedalLowered,
+                                harpPedalDivider,
+                                harpSalzedoSlideWithSuppleness,
+                                harpSalzedoOboicFlux,
+                                harpSalzedoThunderEffect,
+                                harpSalzedoWhistlingSounds,
+                                harpSalzedoMetallicSounds,
+                                harpSalzedoTamTamSounds,
+                                harpSalzedoPlayUpperEnd,
+                                harpSalzedoTimpanicSounds,
+                                harpSalzedoMuffleTotally,
+                                harpSalzedoFluidicSoundsLeft,
+                                harpSalzedoFluidicSoundsRight,
+                                harpMetalRod,
+                                harpTuningKey,
+                                harpTuningKeyHandle,
+                                harpTuningKeyShank,
+                                harpTuningKeyGlissando,
+                                harpStringNoiseStem,
+                                harpSalzedoAeolianAscending,
+                                harpSalzedoAeolianDescending,
+                                harpSalzedoDampLowStrings,
+                                harpSalzedoDampBothHands,
+                                harpSalzedoDampBelow,
+                                harpSalzedoDampAbove,
+                                harpSalzedoMetallicSoundsOneString,
+                                harpSalzedoIsolatedSounds,
+                                harpSalzedoSnareDrum
+                            );
+                            },
+                            {
+                                name = "Percussion Playing Technique Pictograms";
+                                list = (
+                                pictStickShot,
+                                pictScrapeCenterToEdge,
+                                pictScrapeEdgeToCenter,
+                                pictScrapeAroundRim,
+                                pictOnRim,
+                                pictOpenRimShot,
+                                pictHalfOpen1,
+                                pictHalfOpen2,
+                                pictOpen,
+                                pictDamp1,
+                                pictDamp2,
+                                pictDamp3,
+                                pictDamp4,
+                                pictRimShotOnStem,
+                                pictCenter1,
+                                pictCenter2,
+                                pictCenter3,
+                                pictRim1,
+                                pictRim2,
+                                pictRim3,
+                                pictNormalPosition,
+                                pictChokeCymbal,
+                                pictRightHandSquare,
+                                pictLeftHandCircle,
+                                pictSwishStem,
+                                pictTurnRightStem,
+                                pictTurnLeftStem,
+                                pictTurnRightLeftStem,
+                                pictCrushStem,
+                                pictDeadNoteStem,
+                                pictScrapeAroundRimClockwise
+                            );
+                            },
+                            );
+                    },
+                    {
+                        name = "Symbols for Specific Instruments";
+                        icon = 1insTemplate;
+                        subGroup = (
+                    {
+                        name = "Guitar";
+                        list = (
+                            guitarVibratoBarScoop,
+                            guitarVibratoBarDip,
+                            guitarShake,
+                            guitarString0,
+                            guitarString1,
+                            guitarString2,
+                            guitarString3,
+                            guitarString4,
+                            guitarString5,
+                            guitarString6,
+                            guitarString7,
+                            guitarString8,
+                            guitarString9,
+                            guitarOpenPedal,
+                            guitarHalfOpenPedal,
+                            guitarClosePedal,
+                            guitarLeftHandTapping,
+                            guitarRightHandTapping,
+                            guitarGolpe,
+                            guitarFadeIn,
+                            guitarFadeOut,
+                            guitarVolumeSwell,
+                            guitarStrumUp,
+                            guitarStrumDown,
+                            guitarBarreFull,
+                            guitarBarreHalf,
+                            guitarString10,
+                            guitarString11,
+                            guitarString12,
+                            guitarString13
+                        );
+                        },
+                        );
+                    },
+                    
+                    
+                    {
+                        name = "Chord Symbols";
+                        icon = 1chordTemplate;
+                        subGroup =(
+                            {
+                                name = "Chord Symbols";
+                                list = (
+                                csymDiminished,
+                                csymHalfDiminished,
+                                csymAugmented,
+                                csymMajorSeventh,
+                                csymMinor,
+                                csymParensLeftTall,
+                                csymParensRightTall,
+                                csymBracketLeftTall,
+                                csymBracketRightTall,
+                                csymParensLeftVeryTall,
+                                csymParensRightVeryTall,
+                                csymAlteredBassSlash,
+                                csymDiagonalArrangementSlash
+                                );
+                            },
+                            {
+                                name = "Chord Diagrams";
+                                list = (
+                                    fretboard3String,
+                                    fretboard3StringNut,
+                                    fretboard4String,
+                                    fretboard4StringNut,
+                                    fretboard5String,
+                                    fretboard5StringNut,
+                                    fretboard6String,
+                                    fretboard6StringNut,
+                                    fretboardFilledCircle,
+                                    fretboardX,
+                                    fretboardO
+                                );
+                            },
+                            {
+                                name = "Standard Accidentals for Chord Symbols";
+                                list = (
+                                csymAccidentalFlat,
+                                csymAccidentalNatural,
+                                csymAccidentalSharp,
+                                csymAccidentalDoubleSharp,
+                                csymAccidentalDoubleFlat,
+                                csymAccidentalTripleSharp,
+                                csymAccidentalTripleFlat
+                                );
+                            },
+                        );
+                    },
+                    {
+                        name = "Signs and Texts";
+                        icon = 1fbTemplate;
+                        subGroup = (
+                            {
+                            name = "Metronome Marks";
+                            list = (
+                            metNoteDoubleWhole,
+                            metNoteDoubleWholeSquare,
+                            metNoteWhole,
+                            metNoteHalfUp,
+                            metNoteHalfDown,
+                            metNoteQuarterUp,
+                            metNoteQuarterDown,
+                            metNote8thUp,
+                            metNote8thDown,
+                            metNote16thUp,
+                            metNote16thDown,
+                            metNote32ndUp,
+                            metNote32ndDown,
+                            metNote64thUp,
+                            metNote64thDown,
+                            metNote128thUp,
+                            metNote128thDown,
+                            metNote256thUp,
+                            metNote256thDown,
+                            metNote512thUp,
+                            metNote512thDown,
+                            metNote1024thUp,
+                            metNote1024thDown,
+                            metAugmentationDot    );
+                            },
+                                        {
+                        name = "Fingering";
+                        list = (
+                            fingering0,
+                            fingering1,
+                            fingering2,
+                            fingering3,
+                            fingering4,
+                            fingering5,
+                            fingeringTUpper,
+                            fingeringPLower,
+                            fingeringTLower,
+                            fingeringILower,
+                            fingeringMLower,
+                            fingeringALower,
+                            fingeringCLower,
+                            fingeringXLower,
+                            fingeringELower,
+                            fingeringOLower,
+                            fingeringSubstitutionAbove,
+                            fingeringSubstitutionBelow,
+                            fingeringSubstitutionDash,
+                            fingeringMultipleNotes,
+                            fingering6,
+                            fingering7,
+                            fingering8,
+                            fingering9,
+                            fingeringLeftParenthesis,
+                            fingeringRightParenthesis,
+                            fingeringLeftBracket,
+                            fingeringRightBracket,
+                            fingeringSeparatorMiddleDot,
+                            fingeringSeparatorMiddleDotWhite,
+                            fingeringSeparatorSlash
+                        );
+                    },
+                            {
+                                name = "Individual Notes";
+                                list = (
+                                noteDoubleWhole,
+                                noteDoubleWholeSquare,
+                                noteWhole,
+                                noteHalfUp,
+                                noteHalfDown,
+                                noteQuarterUp,
+                                noteQuarterDown,
+                                note8thUp,
+                                note8thDown,
+                                note16thUp,
+                                note16thDown,
+                                note32ndUp,
+                                note32ndDown,
+                                note64thUp,
+                                note64thDown,
+                                note128thUp,
+                                note128thDown,
+                                note256thUp,
+                                note256thDown,
+                                note512thUp,
+                                note512thDown,
+                                note1024thUp,
+                                note1024thDown,
+                                augmentationDot
+                                );
+                            },
+                            {
+                                name = "Beamed Groups of Notes";
+                                list = (
+                                textBlackNoteShortStem,
+                                textBlackNoteLongStem,
+                                textBlackNoteFrac8thShortStem,
+                                textBlackNoteFrac8thLongStem,
+                                textBlackNoteFrac16thShortStem,
+                                textBlackNoteFrac16thLongStem,
+                                textBlackNoteFrac32ndLongStem,
+                                textCont8thBeamShortStem,
+                                textCont8thBeamLongStem,
+                                textCont16thBeamShortStem,
+                                textCont16thBeamLongStem,
+                                textCont32ndBeamLongStem,
+                                textAugmentationDot,
+                                textTie,
+                                textTupletBracketStartShortStem,
+                                textTuplet3ShortStem,
+                                textTupletBracketEndShortStem,
+                                textTupletBracketStartLongStem,
+                                textTuplet3LongStem,
+                                textTupletBracketEndLongStem,
+                                textHeadlessBlackNoteShortStem,
+                                textHeadlessBlackNoteLongStem,
+                                textHeadlessBlackNoteFrac8thShortStem,
+                                textHeadlessBlackNoteFrac8thLongStem,
+                                textHeadlessBlackNoteFrac16thShortStem,
+                                textHeadlessBlackNoteFrac16thLongStem,
+                                textHeadlessBlackNoteFrac32ndLongStem
+                            );
+                            },
+                        );
+                    },
+                    {
+                        name = "All Supplements";
+                        icon = 1supTemplate;
+                        subGroup = (
+                                {
+                                name = "Articulation Supplement";
+                                list = (
+                                articSoftAccentAbove,
+                                articSoftAccentBelow,
+                                articSoftAccentStaccatoAbove,
+                                articSoftAccentStaccatoBelow,
+                                articSoftAccentTenutoAbove,
+                                articSoftAccentTenutoBelow,
+                                articSoftAccentTenutoStaccatoAbove,
+                                articSoftAccentTenutoStaccatoBelow
+                                );
+                                },
+                                {
+                                    name = "Fingering Supplement";
+                                    list = (
+                                    fingering0Italic,
+                                    fingering1Italic,
+                                    fingering2Italic,
+                                    fingering3Italic,
+                                    fingering4Italic,
+                                    fingering5Italic,
+                                    fingering6Italic,
+                                    fingering7Italic,
+                                    fingering8Italic,
+                                    fingering9Italic,
+                                    fingeringLeftParenthesisItalic,
+                                    fingeringRightParenthesisItalic,
+                                    fingeringLeftBracketItalic,
+                                    fingeringRightBracketItalic,
+                                    fingeringQLower,
+                                    fingeringSLower
+                                );
+                                },
+                                {
+                                    name = "Time Signatures Supplement";
+                                    list = (
+                                    timeSigBracketLeft,
+                                    timeSigBracketRight,
+                                    timeSigBracketLeftSmall,
+                                    timeSigBracketRightSmall,
+                                    timeSigSlash,
+                                    timeSigCut2,
+                                    timeSigCut3
+                                );
+                                },
+                            );
+                    },
+            );
+        },
+        );
+}

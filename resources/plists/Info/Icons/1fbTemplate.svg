@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-896,0)">
+        <g id="画板5" transform="matrix(1,0,0,1,-0.333333,0)">
+            <rect x="896.333" y="0" width="16" height="16" style="fill:none;"/>
+            <g transform="matrix(0.0511884,0,0,0.0511884,895.887,1.57586)">
+                <path d="M302,162L265,162L265,108C265,103 258,98 253,98C247,98 241,103 241,108L241,162L171,162L171,55C171,51 170,47 165,47C161,47 158,48 155,51L125,109C123,112 120,116 120,121L120,162L55,162C96,129 160,15 161,10C161,9 162,8 162,7C162,3 158,0 155,0C150,0 129,1 120,1C111,1 105,0 101,0C96,0 89,2 89,10C89,73 37,146 24,164C22,166 20,169 20,172C20,178 25,182 30,182L120,182L120,214C120,227 116,231 109,231C103,231 99,236 99,241C99,246 102,251 107,251L182,251C187,251 192,248 192,241C192,234 186,231 181,231C176,231 171,228 171,212L171,182L241,182L241,236C241,242 247,246 253,246C258,246 265,242 265,236L265,182L302,182C307,182 310,178 310,172C310,166 308,162 302,162Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

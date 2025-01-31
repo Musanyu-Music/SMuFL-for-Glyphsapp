@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2688,0)">
+        <g id="画板13" transform="matrix(1,0,0,1,-0.333333,0)">
+            <rect x="2688.33" y="0" width="16" height="16" style="fill:none;"/>
+            <g transform="matrix(0.0317424,0,0,0.0317424,2692.41,9.22208)">
+                <path d="M134,-174L134,-184C134,-221 104,-251 67,-251C30,-251 0,-221 0,-184C0,-163 12,-145 27,-133C43,-122 62,-116 81,-116C95,-116 109,-119 120,-123C134,-127 143,-131 156,-138C158,-139 160,-139 161,-139C165,-139 166,-135 166,-130C166,-127 166,-123 165,-119C162,-104 90,95 72,161C72,173 95,174 101,174C112,174 126,172 136,164C139,162 237,-189 237,-189C241,-207 246,-223 247,-228C247,-238 237,-243 235,-244C233,-244 230,-244 224,-240C217,-234 167,-174 134,-174Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

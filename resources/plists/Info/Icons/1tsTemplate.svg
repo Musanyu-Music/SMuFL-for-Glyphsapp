@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1568,0)">
+        <g id="_1timeTemplate" serif:id="1timeTemplate" transform="matrix(1,0,0,1,-0.333333,0)">
+            <rect x="1568.33" y="0" width="16" height="16" style="fill:none;"/>
+            <g transform="matrix(0.026,0,0,0.026,1570.76,7.974)">
+                <path d="M233,-249C91,-249 5,-123 5,12C5,77 29,134 70,184C108,230 163,251 223,251C398,251 424,92 424,63C424,41 413,41 409,41C401,41 394,42 394,59C394,188 284,218 252,218C171,218 128,139 128,-26C128,-191 204,-225 258,-225C310,-225 331,-201 331,-191C331,-182 328,-169 313,-169C273,-169 250,-126 250,-95C250,-38 299,-20 327,-20C327,-20 403,-23 403,-106C403,-237 252,-249 233,-249Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
