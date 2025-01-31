@@ -112,7 +112,6 @@ Allow Glyphs to display SMuFL languages and categories in the launcher and sideb
    
    
    
-   
 2. #### Languages
 
    Languages主要采用 *ranges.json* 中提供的分类依据来进行分组，不同的是作者将其进一步细分，使用了更易于人检索和查找的形式。
@@ -214,20 +213,21 @@ Used Unicode Music Symbols
 
    In order to be compatible with text editors, some SMuFL standard fonts also copy the corresponding characters in the Unicode Music Symbols Code Range. This is a List Filter, users can right-click and add the Unicode Music Symbols glyphs as they want.
 
-   
 
-   > [!NOTE]
-   >
-   > 从U+1D100到U+1D1FF都是Unicode Music Symbols Code Range（一共256个字符），而最后 21 个字符是闲置的。此列表包括了这些闲置字符。
-   >
-   > The Unicode Music Symbols Code Range starts from U+1D100 and ends at U+1D1FF (256 characters long). The last 21 characters are unused, this list includes these unused characters.
 
-   
 
-5. #### Used Unicode Music Symbols
+> [!NOTE]
+>
+> 从U+1D100到U+1D1FF都是Unicode Music Symbols Code Range（一共256个字符），而最后 21 个字符是闲置的。此列表包括了这些闲置字符。
+>
+> The Unicode Music Symbols Code Range starts from U+1D100 and ends at U+1D1FF (256 characters long). The last 21 characters are unused, this list includes these unused characters.
+
+
+
+1. #### Used Unicode Music Symbols
 
    这是Smart Filter，用来显示已经使用的Unicode Music Symbols。
-   
+
    This is a Smart Filter that displays all the used Unicode Music Symbols.
 
 
